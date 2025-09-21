@@ -15,7 +15,7 @@ const Footer = () => {
             >
                 DocUp
             </div>
-            <p className='w-full md:w-2/3 text-gray-600 leading-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quod suscipit ab pariatur quae atque ducimus et fugit quas, quidem nemo nobis error debitis minima numquam nulla ut est voluptatum aut, molestiae veniam neque similique. Consequatur velit suscipit facilis iste.</p>
+            <p className='w-full md:w-2/3 text-gray-600 leading-6'>Under the guidance of Dr. Rakesh Kumar Tiwari. </p>
         </div>
 
         {/* Center Side */}
