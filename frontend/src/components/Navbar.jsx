@@ -19,7 +19,14 @@ const Navbar = () => {
 
     return (
         <div className='flex items-center justify-between text-sm py-4 mb-5 border-b border-gray-400'>
-            <img onClick={()=>{navigate('/'); scrollTo(0,0)}} className='w-44 cursor-pointer' src={assets.logo} alt="" />
+{/*             <img onClick={()=>{navigate('/'); scrollTo(0,0)}} className='w-44 cursor-pointer' src={assets.logo} alt="" /> */}
+            <div
+                onClick={()=>{navigate('/'); scrollTo(0,0)}}
+                className="w-44 cursor-pointer flex items-center justify-center p-1 rounded-lg bg-green-500 text-white text-2xl font-extrabold tracking-wide shadow-md select-none"
+                style={{ backgroundColor: '#22c55e', letterSpacing: '0.05em' }}
+            >
+                DocUp
+            </div>
             <ul className='hidden md:flex item-start gap-5 font-medium'>
                 <NavLink to="/">
                     <li className='py-1'>HOME</li>
