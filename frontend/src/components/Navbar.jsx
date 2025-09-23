@@ -19,7 +19,6 @@ const Navbar = () => {
 
     return (
         <div className='flex items-center justify-between text-sm py-4 mb-5 border-b border-gray-400'>
-{/*             <img onClick={()=>{navigate('/'); scrollTo(0,0)}} className='w-44 cursor-pointer' src={assets.logo} alt="" /> */}
             <div
                 onClick={()=>{navigate('/'); scrollTo(0,0)}}
                 className="w-44 cursor-pointer flex items-center justify-center p-1 rounded-lg bg-green-500 text-white text-2xl font-extrabold tracking-wide shadow-md select-none"
@@ -43,6 +42,10 @@ const Navbar = () => {
                 <NavLink to="/contact">
                     <li className='py-1'>CONTACT</li>
                     <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
+                </NavLink>
+                <NavLink to="/chatbot">
+                    <li className='py-1 text-green-600 font-semibold'>AI-ASSISTANT</li>
+                    <hr className='border-none outline-none h-0.5 bg-green-500 w-3/5 m-auto hidden' />
                 </NavLink>
             </ul>
             <div className='flex items-center gap-4'>
